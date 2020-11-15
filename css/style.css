@@ -1,0 +1,39 @@
+header {
+    background-color: green;
+    height: 10vh;
+}
+
+main {
+    height: auto;
+    background-color: #999;
+}
+
+.centraliza_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 10vh;
+    background-color: blue;
+}
+
+h1, h2, h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h1 {
+    background-color: goldenrod;
+}
+
+.fa-linkedin {}
+
+img {
+    height: 70vh;
+}
+
+p {
+    margin: 10px;
+}
