@@ -14,13 +14,28 @@
 
 <body>
   <header>
-    <nav>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        Sala de Leitura
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Página Principal <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resenhas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Livros</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
-    <h1>Sala de Leitura</h1>
-    <h2>Compartilhando conhecimento!</h2>
+    <h1>Nossos livros!</h1>
+    <h3>Veja os livros disponíveis. Clique para acessar a resenha!</h3>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <!-- <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -42,12 +57,12 @@
         <span class="sr-only">Anterior</span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon " aria-hidden="true"></span>
         <span class="sr-only">Próximo</span>
       </a>
     </div>
   </main>
-  <footer class="centraliza_flex">
+  <footer class="centraliza_flex bg-dark">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
@@ -55,8 +70,8 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"></script>
     <p class="flex">
-      Copyright &copy Rafael Fernandes <a href="https://www.linkedin.com/in/rafaelfernandesti/" target="_blank"><i
-          class="fa fa-linkedin"></i></a>
+      <strong><i class="text-white">Copyright &copy 2020 </i></strong>Criado por Rafael Fernandes <a href="https://www.linkedin.com/in/rafaelfernandesti/" target="_blank"><i
+          class="fa fa-linkedin text-white"></i></a>
     </p>
   </footer>
 </body>

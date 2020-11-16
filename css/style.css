@@ -1,5 +1,5 @@
 header {
-    background-color: green;
+    /* background-color: #fd5200; */
     height: 10vh;
 }
 
@@ -16,24 +16,13 @@ main {
 
 footer {
     height: 10vh;
-    background-color: blue;
+    background-color: #fe621d;
+    color: #999;
 }
 
 h1, h2, h3 {
-    margin-top: 10px;
     text-align: center;
 }
-
-h1 {
-    background-color: goldenrod;
-}
-
-.fa-linkedin {}
-
 img {
     height: 70vh;
-}
-
-p {
-    margin: 10px;
 }
