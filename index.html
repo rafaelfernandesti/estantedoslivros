@@ -15,16 +15,23 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         Sala de Leitura
       </a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Página Principal <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Página Principal <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resenhas</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resenhas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="contents/resenha_crepusculo.html">Crepúsculo</a>
+              <a class="dropdown-item" href="#">Outro livro</a>
+              <a class="dropdown-item" href="#">Mais um livro</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Livros</a>
@@ -44,7 +51,7 @@
       </ol>
       <div class="carousel-inner text-center">
         <div class="carousel-item text-center active">
-          <a href="crepusculo.html">
+          <a href="contents/resenha_crepusculo.html">
             <img src="imagens/crepusculo.jpg" alt="Capa do livro do Crepúsculo">
           </a>
         </div>
@@ -63,16 +70,21 @@
     </div>
   </main>
   <footer class="centraliza_flex bg-dark">
+    <strong>
+      <i class="text-white">Copyright &copy 2020 </i>
+    </strong> | Criado por Rafael Fernandes <a
+    href="https://www.linkedin.com/in/rafaelfernandesti/" target="_blank"><i
+    class="fa fa-linkedin text-white"></i></a>
+    
+    
+    
+    <!-- scripts adicionais -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"></script>
-    <p class="flex">
-      <strong><i class="text-white">Copyright &copy 2020 </i></strong>Criado por Rafael Fernandes <a href="https://www.linkedin.com/in/rafaelfernandesti/" target="_blank"><i
-          class="fa fa-linkedin text-white"></i></a>
-    </p>
   </footer>
 </body>
 
