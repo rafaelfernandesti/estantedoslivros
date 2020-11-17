@@ -23,6 +23,24 @@ footer {
 h1, h2, h3 {
     text-align: center;
 }
+
 img {
     height: 70vh;
+}
+
+.banner {
+    background-image: url("../imagens/banner/woman-library.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.texto_banner {
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 100%;
 }
