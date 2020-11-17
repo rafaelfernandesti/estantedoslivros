@@ -28,6 +28,7 @@ img {
     height: 70vh;
 }
 
+
 .banner {
     background-image: url("../imagens/banner/woman-library.jpg");
     height: 90vh;
@@ -44,3 +45,8 @@ img {
     padding: 10px;
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+    .banner {
+        background-image: url("../imagens/banner/woman-library.jpg") no-repeat center fixed;
+    }
+  }
