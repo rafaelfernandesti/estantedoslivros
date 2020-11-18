@@ -1,11 +1,11 @@
 header {
-    /* background-color: #fd5200; */
     height: 10vh;
 }
 
 main {
     height: auto;
-    background-color: #999;
+    width: 100%;
+    /* background-color: #999; */
 }
 
 .centraliza_flex {
@@ -13,22 +13,15 @@ main {
     align-items: center;
     justify-content: center;
 }
-
 footer {
     height: 10vh;
-    background-color: #fe621d;
+    background-color: #F50057;
     color: #999;
 }
 
 h1, h2, h3 {
     text-align: center;
 }
-
-img {
-    height: 70vh;
-}
-
-
 .banner {
     background-image: url("../imagens/banner/woman-library.jpg");
     height: 90vh;
@@ -49,4 +42,51 @@ img {
     .banner {
         background-image: url("../imagens/banner/woman-library.jpg") no-repeat center fixed;
     }
+    .logo{
+        display: none;
+    }
+    .posiciona_botoes {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .resenha{
+        display: block;
+    }
   }
+  .logo{
+    height: 10vh;
+  }
+
+  .fa-linkedin:hover{
+    color: blue;
+  }
+  .posiciona_botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.hero_resenha{
+    padding-top: 50px;
+    background-image: url("https://comunidade.rockcontent.com/wp-content/uploads/2018/05/original-e1a9d649159d35f2b79eba6b7fa2a41d.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100vw;
+    
+}
+.titulo_resenha{
+    padding: 5px;
+    color: white;
+}
+.resenha{
+    padding: 1.5em;
+}
+.botao_voltar{
+    margin: 0 50px 0 50px;
+}
